@@ -5,6 +5,11 @@
 npm run build
 ```
 
+### 开发
+```
+npm run serve
+```
+
 ### 使用方式：
 ```html
 <!DOCTYPE html>
@@ -20,7 +25,6 @@ npm run build
   <script type="text/javascript" src="./dist/bundle.js"></script>
   <script type="text/javascript">
     var m = new Modal({
-      title: 'test-modal',
       channel: 'channel',
       onShow: function() {
         console.log('modal show')

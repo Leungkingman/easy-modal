@@ -1,0 +1,17 @@
+.easy-modal-container {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin: 150px auto;
+  background: #00CCFF;
+
+  .close-btn {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+  }
+
+  .modal-title {
+    text-align: center
+  }
+}
